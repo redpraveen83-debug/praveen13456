@@ -1,0 +1,85 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday</title>
+<style>
+body {
+  margin:0;
+  padding:0;
+  font-family:Arial;
+  background:black;
+  color:white;
+  text-align:center;
+}
+
+#screen1, #screen2, #screen3 {
+  display:none;
+  padding:20px;
+}
+
+button {
+  padding:12px 20px;
+  border:none;
+  margin-top:25px;
+  border-radius:10px;
+  background:#ff3fa4;
+  color:white;
+  font-size:17px;
+}
+
+img {
+  width:80%;
+  border-radius:20px;
+  margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- SCREEN 1 -->
+<div id="screen1">
+  <h1>🎂 Happy Birthday My Dear ❤️</h1>
+  <img src="https://tse2.mm.bing.net/th/id/OIP.m1rumEWRx1McJbjCAzOcwQHaE8?pid=Api&P=0&h=180">
+  <button onclick="next(2)">Cake Cut Pannu 💖</button>
+</div>
+
+<!-- SCREEN 2 -->
+<div id="screen2">
+  <h2>💗 our's Memories 💗</h2>
+
+  <!-- Replace these with HER PHOTOS -->
+  <img src="C:\Users\LENOVO\AppData\Local\Microsoft\Windows\INetCache\IE\LXY3FR9W\IMG_20251113_191505_249[1].jpg">
+  <img src="C:\Users\LENOVO\AppData\Local\Microsoft\Windows\INetCache\IE\H8D2RZOH\IMG_20251114_181949_801[1].jpg">
+  <img src="C:\Users\LENOVO\AppData\Local\Microsoft\Windows\INetCache\IE\A08WNXX2\IMG_20251114_181959_896[1].jpg">
+
+  <button onclick="next(3)">Next ➜</button>
+</div>
+
+<!-- SCREEN 3 -->
+<div id="screen3">
+  <h2>💌 A Special Message For You 💌</h2>
+
+  <p style="font-size:17px; line-height:28px; padding:12px; text-align:left;">
+Okay it's to late munadi lan 10 days to go 9 days to go lan panitu irundhan ipa en panalana love poitu artham ila onaku time waste panitu edhuku theva ilama distract solitu dhan vitutan matha padi pana kudadhu ila adhuku first sorry and happy birthday my bestest one 🫂🫂 indha birthday onaku varum bd ah ilama studies la focus paandra day ah uhm next year onaku nalaa year ah irukavum na mrng Kovil poovan pray panuvan onakaha kandipa ellam naladha nadakum wait panu kandipa nama kalam varum ellamae marum onaku avanga sari ila ivanga sari ila apdi ipdi nanaikadha onaku ellamavum na irupan 🫂 kandipa irupan endha situation ah irundhalum na von kudaye irupan adha na break panamatan epayum ah vonoda responsibility ellame enoda responsibility ah eduthutu von kuda nipan ellathakum kandipa nee ca clear panuva bcz von efforts romba high ah iruku so adhu vona thedi varum adhu onakanadhu ipa jan la exam vera elludha pora innum one and half month dhan apo indha bd ku ena panalam apdi ipdi yosikum podhu dhan thinks to do apdi oru reels suggest anuchi plan pana kasu ready pana ipa full ah ready ah aitu ipa idhu dhan von bd ku gift ah thara poran kandipa idhu onaku pudikum ngura dha thandi onaku romba help full ah irukum indha bd ah naanum perusa celebrate panika matan bcz ne ipa von full efforts potu padikria so na panamatan adhuku na respect tharan Neeyum indha bd ah perusa celebrate panikama wishes mattum keatutu padi okay ah naanum indha time onaku perusa wish periya para apdi panalam idea la ila enoda wish epovumae vona suthi dhan irukum so ne edhum nanaikadha kandipa exam lan clear panitu successful apdi nu onu varum podhu paru praveen oda paragraph na ena nu katran na von bd gift ku diary gift pana so naanum en bd ku oru gift expect pandran tharuviya ?? Okay thaaruva dhan solirupa enaku feb month successful nu oru word von result la pakanum adhan enoda bd gift kudupa dhana ?? Apo kudukanum na ena pananum pooi padikanum time paru 12 mela aitu yaru wish uhm pakama enodadha padichitu okandhuruka idha arvatha von padipula katu 2 months ku kandipa vonaala andha gift enaku thara mudiyum okay avlodhan en wish uhm mudinjitu love you so much for your efforts 🫂🌎💖 and once again happy birthday jillu thanga pula 🌎😘💖 na Rombaa lucky vona mari onu poonu kadachadhuku en keata ne romba different epdi soldradhu enaku vartha therila but your the perfect wife material ethana per vandhalum ponalum sari enaku epovumae ne dhan important ne mattum dhan na vona endha samayathulayum vitu tharamatan kai vidamatan vona padika soldradhu nama life Nala irukanum andha mari dhan so padipula konjam seriousness katu von love ah prove panu naa evlo lucky nu prove panu okay okay paru mela time ah evlo aitu ipa idha padichitu iruka mrng sikriam endhirichi padika venama🤬 po pooi thoongu mrng padikanum la von bd gift 20 ila 21 vona thedi varum kandipa wait panu ha adu vara en bd gift ah ready panunga sari okay mudichilam idhoda happy birthday d chella pula vairam 💖🌎😘😚😚😚🌎🌎🌎🌎🫣🫣🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂🫂😻  
+
+<br><br>
+— Ungal anbu kanavan matrum avarin manadhu ❤️
+  </p>
+
+</div>
+
+<script>
+function next(n) {
+  document.getElementById("screen1").style.display = "none";
+  document.getElementById("screen2").style.display = "none";
+  document.getElementById("screen3").style.display = "none";
+  document.getElementById("screen" + n).style.display = "block";
+}
+window.onload = () => next(1);
+</script>
+
+</body>
+</html>
